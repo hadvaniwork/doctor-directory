@@ -1,4 +1,4 @@
-# User Listing and Search Application
+# Doctor Directory
 
 This project is a **React + Redux** web application that allows users to list, search, and view details about doctors using data from a local JSON file. Users can search for doctors by their name, filter by specialty and location, and clicking on any doctor opens a modal displaying their full details.
 
