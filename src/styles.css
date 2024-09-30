@@ -1,0 +1,284 @@
+/* General container styling */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+/* Filters Container */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+/* Ensure search bar takes up most of the row */
+.search-bar {
+  flex: 1;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Style for the select dropdowns */
+.select-container select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #fff;
+  color: #333;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><polygon points="0,0 10,10 20,0" fill="black"/></svg>'); /* Arrow */
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Ensure the dropdown background is white */
+select {
+  background-color: #fff !important;
+  color: #333 !important;
+}
+
+/* Option styling to keep it readable */
+select option {
+  background-color: #fff !important;
+  color: #333 !important;
+  padding: 10px;
+}
+
+/* Selected option styling */
+select option:checked {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+/* Focus styling */
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 3px 6px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+.custom-dropdown {
+  position: relative;
+  width: 250px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header for the dropdown */
+.dropdown-header {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.dropdown-header:hover {
+  border-color: #007bff;
+  box-shadow: 0 3px 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Dropdown arrow */
+.dropdown-arrow {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate the arrow when the dropdown is open */
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+/* Dropdown list container */
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  z-index: 1000;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+/* Dropdown options */
+.dropdown-option {
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+/* Highlight the selected option */
+.dropdown-option.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Doctor List and Cards */
+.doctor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.doctor-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.doctor-card p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #999;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.modal-content p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar,
+  .select-container {
+    width: 100%;
+  }
+
+  select {
+    background-position: right 10px center;
+    padding: 12px;
+  }
+
+  .doctor-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .doctor-card {
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 20px;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
