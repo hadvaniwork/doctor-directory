@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "specialty": "Cardiology",
+    "location": {
+      "city": "New York",
+      "state": "NY"
+    },
+    "rating": 5,
+    "phone": "+1 212-555-1234",
+    "email": "johndoe@hospital.com"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Smith",
+    "specialty": "Dermatology",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA"
+    },
+    "rating": 4,
+    "phone": "+1 323-555-5678",
+    "email": "janesmith@clinic.com"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Michael Brown",
+    "specialty": "Neurology",
+    "location": {
+      "city": "Chicago",
+      "state": "IL"
+    },
+    "rating": 3,
+    "phone": "+1 312-555-9876",
+    "email": "michaelbrown@hospital.com"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Davis",
+    "specialty": "Pediatrics",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA"
+    },
+    "rating": 5,
+    "phone": "+1 415-555-4321",
+    "email": "emilydavis@childcare.com"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Robert Wilson",
+    "specialty": "Orthopedics",
+    "location": {
+      "city": "Houston",
+      "state": "TX"
+    },
+    "rating": 4,
+    "phone": "+1 713-555-8765",
+    "email": "robertwilson@orthoclinic.com"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Linda Martinez",
+    "specialty": "Psychiatry",
+    "location": {
+      "city": "Phoenix",
+      "state": "AZ"
+    },
+    "rating": 5,
+    "phone": "+1 602-555-0987",
+    "email": "lindamartinez@mentalhealth.com"
+  },
+  {
+    "id": 7,
+    "name": "Dr. David Clark",
+    "specialty": "Ophthalmology",
+    "location": {
+      "city": "Miami",
+      "state": "FL"
+    },
+    "rating": 3,
+    "phone": "+1 305-555-1234",
+    "email": "davidclark@eyeclinic.com"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Susan Lewis",
+    "specialty": "Gynecology",
+    "location": {
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "rating": 4,
+    "phone": "+1 214-555-6789",
+    "email": "susanlewis@womenshealth.com"
+  },
+  {
+    "id": 9,
+    "name": "Dr. William Walker",
+    "specialty": "Oncology",
+    "location": {
+      "city": "Seattle",
+      "state": "WA"
+    },
+    "rating": 5,
+    "phone": "+1 206-555-4567",
+    "email": "williamwalker@cancercenter.com"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Lisa Harris",
+    "specialty": "Endocrinology",
+    "location": {
+      "city": "Boston",
+      "state": "MA"
+    },
+    "rating": 3,
+    "phone": "+1 617-555-7890",
+    "email": "lisaharris@endoclinic.com"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Kevin Young",
+    "specialty": "Cardiology",
+    "location": {
+      "city": "San Diego",
+      "state": "CA"
+    },
+    "rating": 4,
+    "phone": "+1 619-555-5678",
+    "email": "kevinyoung@heartcenter.com"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Karen Wright",
+    "specialty": "Dermatology",
+    "location": {
+      "city": "Denver",
+      "state": "CO"
+    },
+    "rating": 5,
+    "phone": "+1 303-555-1234",
+    "email": "karenwright@skincare.com"
+  },
+  {
+    "id": 13,
+    "name": "Dr. Mark Lee",
+    "specialty": "Gastroenterology",
+    "location": {
+      "city": "Las Vegas",
+      "state": "NV"
+    },
+    "rating": 4,
+    "phone": "+1 702-555-8765",
+    "email": "marklee@digestiveclinic.com"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Amy Turner",
+    "specialty": "Pulmonology",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA"
+    },
+    "rating": 3,
+    "phone": "+1 404-555-9876",
+    "email": "amyturner@lungcare.com"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Thomas Johnson",
+    "specialty": "Rheumatology",
+    "location": {
+      "city": "Orlando",
+      "state": "FL"
+    },
+    "rating": 5,
+    "phone": "+1 407-555-6789",
+    "email": "thomasjohnson@jointcare.com"
+  }
+]
